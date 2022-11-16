@@ -1,0 +1,46 @@
+body {
+  font-family: -apple-system,BlinkMacSystemFont,AppleSDGothicNeo,NotoSansCJKkr,Roboto,Montserrat,sans-serif;
+  color: #50585f;
+}
+
+.blind {
+  position: absolute;
+  width: 1px; height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  margin: -1px;
+}
+
+/* 공용 이미지1 */
+.header .link-logo::before,
+.header .link-search::before,
+.header .mymenu-area .link-delivery::before,
+.header .mymenu-area .link-basket::before {
+  content: '';
+  display: block;
+  background-image: url('../images/ico-sprite-header.png');
+  background-repeat: no-repeat;
+  background-size: 100px 200px;
+}
+
+/* 공용 이미지2 */
+.sc-visual .main-slide .link-more::before,
+.title-area .btn-more::after,
+.footer-nav .nav-list a::before {
+  content: '';
+  display: inline-block;
+  background-image: url('../images/ico-sprite-common.png');
+  background-repeat: no-repeat;
+  background-size: 300px 250px;
+}
+
+/* 공용 이미지3 */
+.footer .service-area .link-call::before,
+.footer .info-area .btn-title::after,
+.footer .sns-area a::before {
+  content: '';
+  display: inline-block;
+  background-image: url('../images/ico-sprite-footer.png');
+  background-repeat: no-repeat;
+  background-size: 92px 86px;
+}
