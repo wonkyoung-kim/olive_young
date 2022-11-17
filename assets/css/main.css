@@ -195,14 +195,24 @@ section > .title-area > .btn-more::after {
 .sc-visual .main-slide .swiper-slide a {
   display: block;
 }
-.sc-visual .main-slide .swiper-slide-active .info-box strong {
+.sc-visual .main-slide .swiper-slide .info-box strong {
   font-size: 25px;
   font-weight: bold;
+}
+.sc-visual .main-slide .swiper-slide .info-box .sub-text {
+  margin-top: 5px;
+}
+.sc-visual .main-slide .swiper-slide.aniTxtR .info-box strong {
   animation: text-r .5s .2s both;
 }
-.sc-visual .main-slide .swiper-slide-active  .info-box .sub-text {
-  margin-top: 5px;
-  animation: text-r .5s .4s both;
+.sc-visual .main-slide .swiper-slide.aniTxtR .info-box .sub-text {
+  animation: text-r .5s .3s both;
+}
+.sc-visual .main-slide .swiper-slide.aniTxtL .info-box strong {
+  animation: text-l .5s .2s both;
+}
+.sc-visual .main-slide .swiper-slide.aniTxtL .info-box .sub-text {
+  animation: text-l .5s .3s both;
 }
 
 @keyframes text-r {
@@ -210,7 +220,7 @@ section > .title-area > .btn-more::after {
   100% { opacity: 1; transform: translateX(25px)};
 }
 @keyframes text-l {
-  0% { opacity: 0; transform: translateX(0px)};
+  0% { opacity: 0; transform: translateX(-50px)};
   100% { opacity: 1; transform: translateX(25px)};
 }
 .sc-visual .main-slide .thumb-box {}
