@@ -364,6 +364,9 @@ section > .title-area > .btn-more::after {
   padding: 14px 0;
   font-size: 14px;
   color: #131518;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .sc-category .product-item .rank-title .rank {
   display: inline-block;
@@ -939,6 +942,9 @@ section > .title-area > .btn-more::after {
   padding: 14px 0;
   font-size: 14px;
   color: #131518;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .sc-view .product-item .rank-title .rank {
   display: inline-block;
