@@ -253,7 +253,7 @@
     border-top: 1px solid #f0f1f4;
     transition: bottom 0.5s;
 }
-.footer-nav.on {
+.footer-nav.active {
   bottom: 0
 }
 .footer-nav .nav-list {
@@ -293,6 +293,6 @@
   cursor: pointer;
   transition: bottom 0.5s;
 }
-.footer-nav.on + .btn-top {
+.footer-nav.active + .btn-top {
   bottom: 70px;
 }
