@@ -219,12 +219,12 @@ section > .title-area > .btn-more::after {
 }
 
 @keyframes text-r {
-  0% { opacity: 0; transform: translateX(50px)};
-  100% { opacity: 1; transform: translateX(25px)};
+  0% { opacity: 0; transform: translateX(50px);}
+  100% { opacity: 1; transform: translateX(25px);}
 }
 @keyframes text-l {
-  0% { opacity: 0; transform: translateX(-50px)};
-  100% { opacity: 1; transform: translateX(25px)};
+  0% { opacity: 0; transform: translateX(-50px);}
+  100% { opacity: 1; transform: translateX(25px);}
 }
 .sc-visual .main-slide .thumb-box {}
 .sc-visual .main-slide .thumb-box img {
